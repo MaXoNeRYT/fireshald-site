@@ -1,0 +1,33 @@
+import { Callout, Cards, Card } from 'nextra/components'; import { Gamepad2, SquarePlay, ShieldUser } from "lucide-react";
+
+# Добро пожаловать в документацию AmokLeaf
+
+<div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '2rem' }}>
+    <img src="/logo.png" alt="AmokLeaf" style={{ width: '80%', height: '80%', alignSelf: 'center' }} />
+</div>
+
+Добро пожаловать в официальную документацию сервера AmokLeaf! Здесь вы найдете всю необходимую информацию для комфортной игры и взаимодействия с нашим сообществом.
+
+<Callout type="warning">
+  Обратите внимание, что этот сайт находится в стадии разработки. В случае нахождения неточностей или если у вас есть предложение, сообщите нам в <a href="http://t.me/amokleafhelp">@amokleafhelp</a>.
+</Callout>
+
+## Выберите раздел документации
+
+<Cards>
+  <Card 
+    icon={<Gamepad2 color={"white"} />} 
+    title="Для игроков" 
+    href="/player"
+  />
+  <Card 
+    icon={<SquarePlay color={"white"} />} 
+    title="Для медиа" 
+    href="/media"
+  />
+  <Card 
+    icon={<ShieldUser color={"white"} />} 
+    title="Для персонала" 
+    href="/admin"
+  />
+</Cards>
